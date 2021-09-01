@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Menu</h1>
+<table>
+    <caption>Takeaway Menu</caption>
+    <thead>
+        <tr>
+            <th scope="col">Item</th>
+            <th scope="col">Price</th>
+            <th scope="col">Available for Delivery?</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Hot chips</th>
+            <td>$4.00</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <th scope="row">Burger</th>
+            <td>$8.00</td>
+            <td>Yes</td>
+        </tr>
+        <tr>
+            <th scope="row">Fish of the Day</th>
+            <td>$10.00</td>
+            <td>No</td>
+        </tr>
+</table>
+    
+{% endblock %}
